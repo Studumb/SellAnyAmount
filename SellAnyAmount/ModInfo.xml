@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mod description="" displayName="SellAnyAmount" dllsBuild="$SPOREMOD_DLLS_BUILD" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="$SPOREMOD_EXPERIMENTAL" unique="SellAnyAmount">
+  <prerequisite game="GalacticAdventures">SellAnyAmount.package</prerequisite>
+</mod>
