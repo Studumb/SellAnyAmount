@@ -1,0 +1,9 @@
+<mod displayName="Sell Any Amount" 
+	unique="Sell Any Amount"
+	description="Allows you to type in the number of items you want to sell or buy" 
+	installerSystemVersion="1.0.1.2" 
+	hasCustomInstaller="false" 
+	dllsBuild="2.5.337">
+<prerequisite game ="GalacticAdventures">SellAnyAmount.package</prerequisite>
+<prerequisite>SellAnyAmount.dll</prerequisite>
+</mod>
