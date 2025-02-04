@@ -1,6 +1,6 @@
 # Sell Any Amount
 ### About
-- For those who tired or spamming "Add Many" button just to sell some spice.   
+- A mod for those who tired or spamming "Add Many" button just to sell some spice.   
 - Allows you to type in the number of items you want to sell or buy.
 - If there any issues, please let me know in the [issues tab](https://github.com/Studumb/RemoveGlideCap/issues)
 - **Required [Spore ModAPI](https://davoonline.com/sporemodder/rob55rod/ModAPI/Public/)**
