@@ -1,6 +1,6 @@
 <mod displayName="Sell Any Amount" 
 	unique="Sell Any Amount"
-	description="A mod for those who tired of spamming Add Many button just to sell some spice. Allows you to type in the number of items you want to sell or buy" 
+	description="A mod for those who tired of spamming button just to sell some spice. Adds user input for the number of items to sell or buy." 
 	installerSystemVersion="1.0.1.2" 
 	hasCustomInstaller="false" 
 	dllsBuild="2.5.337">
