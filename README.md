@@ -11,4 +11,4 @@
 [![](https://raw.githubusercontent.com/Studumb/SellAnyAmount/refs/heads/main/5UTONcO3E7g-HD.jpg)](https://youtu.be/5UTONcO3E7g)
 ---
 
-I make mods for fun, but if you enjoy my work and feel like supporting it, feel free to visit my [Ko-fi](ko-fi.com/studd). Thank you so much!
+I make mods for fun, but if you enjoy my work and feel like supporting it, feel free to visit my [Ko-fi](https://ko-fi.com/studd). Thank you so much!
