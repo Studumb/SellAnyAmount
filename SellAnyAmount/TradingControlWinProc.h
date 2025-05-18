@@ -18,11 +18,12 @@ public:
 	static const uint32_t TYPE = id("TradingControlWinProc");
 	ITextEditPtr inputField;
 	UILayoutPtr amountInput;
-	//The current amount value
+	IWindowPtr mainWindow;
+	// The current set number of item
 	int currValue{ 1 };
-	//The new amount set by player input
+	// The new amount set by player input
 	int newValue{ 0 };
-
+	// For converting from string to number
 	Message msg;
 
 	std::string input;
