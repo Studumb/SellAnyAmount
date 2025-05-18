@@ -18,15 +18,15 @@ void Dispose()
 	// This method is called when the game is closing
 }
 
-//This detour is called every time player open the trading menu
-//The rest is done by winproc
+// This detour is called every time player open the trading menu
+// The rest is handled by winproc
 member_detour(GenerateNPCStore__detour, Simulator::cSpaceTrading, void(Simulator::cPlanetRecord*, LocalizedString&)) {
 	void detoured(Simulator::cPlanetRecord * planetRecord, LocalizedString & dstSpiceText) {
 		original_function(this, planetRecord, dstSpiceText);
-		//The trading menu
+		// The trading menu
 		WindowManager.GetMainWindow()->FindWindowByID(0x05E62A48)->AddWinProc(new TradingControlWinProc());
-		//We only have to call this once so as soon as it is called we also detach it
-		//This should prevent adding winproc to the window multiple times
+		// We only have to call this once so as soon as it is called we also detach it
+		// This should prevent adding winproc to the window multiple times
 		GenerateNPCStore__detour::detach();
 	}
 };
